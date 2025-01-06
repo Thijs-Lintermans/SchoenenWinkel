@@ -199,3 +199,19 @@ app.*.symbols
 .python-version
 .gclient_previous_custom_vars
 .gclient_previous_sync_commits
+
+# Vuforia related
+/Vuforia/
+/Assets/Editor/Vuforia/
+/Assets/Vuforia/
+/Assets/StreamingAssets/Vuforia/
+/Assets/StreamingAssets/QCAR/
+/Assets/QCAR/
+*.dat
+*.xml
+
+# Vuforia database cache files
+Assets/Editor/Vuforia/config.xml
+Assets/Editor/Vuforia/config.xml.meta
+Assets/Editor/Vuforia/*/LicenseKey.txt
+Assets/Editor/Vuforia/Editor.log
