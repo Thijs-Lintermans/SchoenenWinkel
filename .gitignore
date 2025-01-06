@@ -1,6 +1,5 @@
 # Unity Project
 /[Ll]ibrary/
-/[Pp]ackages/
 /[Tt]emp/
 /[Oo]bj/
 /[Bb]uild/
@@ -11,8 +10,7 @@
 /[Mm]emoryCaptures/
 /[Rr]ecordings/
 
-# Uncomment this line if you wish to ignore the asset store tools plugin
-# /[Aa]ssets/AssetStoreTools*
+/[Aa]ssets/AssetStoreTools*
 
 /[Aa]ssets/Plugins/Editor/JetBrains*
 
@@ -53,6 +51,30 @@ crashlytics-build.properties
 /[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /Aa]ssets/[Ss]treamingAssets/aa/*
+
+# Vuforia related
+/Vuforia/
+/Assets/Editor/Vuforia/
+/Assets/Vuforia/
+/Assets/StreamingAssets/Vuforia/
+/Assets/StreamingAssets/QCAR/
+/Assets/QCAR/
+*.dat
+*.xml
+
+# Vuforia database cache files
+Assets/Editor/Vuforia/config.xml
+Assets/Editor/Vuforia/config.xml.meta
+Assets/Editor/Vuforia/*/LicenseKey.txt
+Assets/Editor/Vuforia/Editor.log
+
+# Exclude specific large files
+/shoeShop/unity/schoenenwinkel/Library/
+/shoeShop/unity/schoenenwinkel/Packages/
+
+# Files larger than 50MB
+*.dylib
+*.tgz
 
 # Flutter Project
 bin/internal/engine.version
@@ -200,19 +222,3 @@ app.*.symbols
 .python-version
 .gclient_previous_custom_vars
 .gclient_previous_sync_commits
-
-# Vuforia related
-/Vuforia/
-/Assets/Editor/Vuforia/
-/Assets/Vuforia/
-/Assets/StreamingAssets/Vuforia/
-/Assets/StreamingAssets/QCAR/
-/Assets/QCAR/
-*.dat
-*.xml
-
-# Vuforia database cache files
-Assets/Editor/Vuforia/config.xml
-Assets/Editor/Vuforia/config.xml.meta
-Assets/Editor/Vuforia/*/LicenseKey.txt
-Assets/Editor/Vuforia/Editor.log
