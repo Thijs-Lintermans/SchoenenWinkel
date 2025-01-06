@@ -1,0 +1,108 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "email": "wout@gmail.com",
+        "first_name": "Wout",
+        "last_name": "Jacobs",
+        "password": "123"
+      },
+      {
+        "id": 2,
+        "email": "thijs@gmail.com",
+        "first_name": "Thijs",
+        "last_name": "Lintermans",
+        "password": "123"
+      },
+      {
+        "id": 3,
+        "email": "michael.johnson@johndoe.com",
+        "first_name": "Michael",
+        "last_name": "Johnson",
+        "password": "password789"
+      },
+      {
+        "id": 4,
+        "email": "lisa.smith@samplemail.com",
+        "first_name": "Lisa",
+        "last_name": "Smith",
+        "password": "password101"
+      },
+      {
+        "id": 5,
+        "email": "robert.brown@samplemail.com",
+        "first_name": "Robert",
+        "last_name": "Brown",
+        "password": "password202"
+      }
+    ],
+    "schoenen": [
+      {
+        "id": 1,
+        "name": "Nike Stefan Janoski",
+        "merk": "Nike",
+        "description": "Een op en top skate schoen voor de beste tricks",
+        "price": 95,
+        "imageUrl": "assets/images/Stefan.jpg"
+      },
+      {
+        "id": 2,
+        "name": "brooks adrenaline gts 22",
+        "merk": "Brooks",
+        "description": "De ideale loopschoen voor lange afstanden",
+        "price": 140,
+        "imageUrl": "assets/images/brooks.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Adidas Predator Elite",
+        "merk": "Adidas",
+        "description": "Retro vibes met een toekomstige prikkel.",
+        "price": 280,
+        "imageUrl": "assets/images/adidas_predator_elite.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Adidas adilette badslipper",
+        "merk": "Adidas",
+        "description": "Ideaal voor een dagje aan het strand of zwembad.",
+        "price": 23,
+        "imageUrl": "assets/images/badslipper.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Wandelschoen",
+        "merk": "Quechua",
+        "description": "wandelschoen voor de beste wandelingen",
+        "price": 60,
+        "imageUrl": "assets/images/wandelschoen.jpg"
+      },
+      {
+        "id": 6,
+        "name": "Vans Old Skool",
+        "merk": "Vans",
+        "description": "Skateboard-inspired sneakers with a retro feel.",
+        "price": 80,
+        "imageUrl": "assets/images/vans.jpg"
+      },
+      {
+        "id": 7,
+        "name": "New Balance 990v5",
+        "merk": "New Balance",
+        "description": "Premium comfort and stability for everyday wear.",
+        "price": 175,
+        "imageUrl": "assets/images/newBalance.jpg"
+      },
+      {
+        "id": 8,
+        "name": "Asics Gel Kayano",
+        "merk": "Asics",
+        "description": "High-performance running shoes for long-distance runners.",
+        "price": 140,
+        "imageUrl": "assets/images/asics.jpg"
+      }
+    ],
+    "favorieten": [],
+    "cart": []
+  }
+  
